@@ -1,0 +1,346 @@
+body,
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+}
+
+/*Header*/
+
+#header {
+	height: 100%;
+}
+
+#wrapper {
+	height: 100%;
+	background: url("img/man.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-bottom: 1em solid rgb(253, 125, 6);
+}
+
+#content {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+#content-box {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#header img {
+	width: 23em;
+	display: inline;
+}
+
+#header p {
+	font-size: 3em;
+	font-weight: bolder;
+    margin: 1em 0;
+    color: rgb(255, 255, 255);
+}
+
+#header p:hover {
+	color: rgb(0, 0, 0);
+}
+
+#header #content a {
+	background-color: white;
+	font-size: 2em;
+	padding: 0.15em 0.5em;
+	color: blue;
+	text-decoration: none;
+	opacity: 0.6;
+	border: 0.15em solid black;
+}
+
+#header #content a:hover {
+	background-color: rgb(255, 255, 255);
+    opacity: 1;
+    color: rgb(253, 125, 6);
+}
+
+/*Navbar*/
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-default {
+	background: none;
+	border: 0;
+	padding: 2em;
+}
+
+.navbar button {
+	background-color: rgb(253, 125, 6)!important;
+}
+
+.navbar button:hover {
+	background-color: black!important;
+}
+
+.navbar-brand {
+	color: rgb(255, 255, 255)!important;
+	font-size: 6em;
+
+}
+
+.navbar a:not(.navbar-brand) {
+	color:rgb(255, 255, 255)!important;
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+.navbar a:hover {
+	color: black!important;
+}
+
+
+/* Products Oils */
+section {
+    display: block;
+}
+
+.main .inner {
+    text-align: center;
+    margin-top: 130px;
+
+}
+.main h1 {
+    text-align: center;
+    line-height: 1.3em;
+    margin: 0 0 30px;
+    font-size: 60px;
+}
+
+.pagination {
+    display: block;
+    font-size: 35px;
+    line-height: 1.5em;
+    margin-bottom: 70px;
+}
+
+.pagination a, .pagination span {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 40px;
+}
+
+.pagination .current, .pagination a:hover {
+    border-radius: 5px;
+    background: #16de52;
+}
+
+.pagination .disabled {
+    display: none;
+}
+
+/* Eucalyptus Oil */
+.meta h3 {
+    font-size: 19px;
+    line-height: 1em;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    vertical-align: baseline;
+    color: rgb(253, 125, 6);
+    font-weight: bold;
+}
+
+
+
+.highlight {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgb(253, 125, 6);
+    background: #16de52;
+    padding: 4px 8px;
+    border-radius: 3px;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    vertical-align: baseline;
+    
+
+}
+
+.preview {
+    width: 300px;
+}
+
+.preview {
+    margin: 0 15px 80px 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.preview-inner a {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.image-wrap {
+    background: url("img/eucalyptus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+
+}
+
+
+.meta {
+    border-top: 3px solid rgb(253, 125, 6);
+    text-align: left;
+    padding: 20px 0;
+    position: relative;
+}
+.meta .price {
+    float: right;
+    margin: 0 0 10px 30px;
+}
+
+.rand-1 {
+    width: 280px;
+    top: 20px;
+}
+
+/* Lemon Oil */
+.image-wrap2 {
+    background: url("img/wintergreen2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.rand-2 {
+    width: 280px;
+    top: 20px;
+}
+
+/* Lavender Oil */
+.image-wrap3 {
+    background: url("img/lavender.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.rand-3 {
+    width: 280px;
+    top: 20px;
+}
+
+/* Rosemary Oil */
+.image-wrap4 {
+    background: url("img/rosemary3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.rand-4 {
+    width: 280px;
+    top: 20px;
+}
+
+/* Greens */
+.image-wrap5 {
+    background: url("img/greens.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.rand-5 {
+    width: 280px;
+    top: 20px;
+}
+
+/* Almond Butter */
+.image-wrap6 {
+    background: url("img/almondbutter.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.rand-6 {
+    width: 280px;
+    top: 20px;
+}
+
+/* Almond Powder */
+.image-wrap7 {
+    background: url("img/almondpowder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.rand-7 {
+    width: 280px;
+    top: 20px;
+}
+
+/* Seaweed */
+.image-wrap8 {
+    background: url("img/kelp.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.rand-8 {
+    width: 280px;
+    top: 20px;
+}
+
+
+
+
+
+
+
+/*footer*/
+
+.text-center {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+footer .fa {
+	color: royalblue;
+	font-size: 2em;
+}
+
+footer h3 {
+	color: rgb(250, 250, 250);
+	font-size: 2em;
+}
